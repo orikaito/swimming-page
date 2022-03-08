@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+}
+
+.center-left {
+    text-align: left!important;
+    display: inline-block!important;
+    padding: 0 10px;
+}
+
+.w3-container a[target=_blank]:after {
+    /* margin: 0 0 0 10px; */
+    font-family: "Font Awesome 5 Free";
+    content: ' \f35d';
+    font-weight: 900;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+.w3-container a[target=_blank]:hover {
+    text-decoration: underline;
+}
+
+.w3-swimming-top {
+    background: linear-gradient(to right, #FFFFFF 20%, #78ebff);
+    font-weight: 500;
+}
+
+.w3-bar-item:hover {
+    background-color: none;
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #ffffff!important;
+    background-color: #4e4e4e!important;
+    opacity: 0.9;
+}
+
+.w3-button:hover {
+    text-decoration: underline;
+}
+
+.w3-right {
+    background-color: #ccc;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(73, 122, 255, .8);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgb(73, 122, 255);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+/* .waterboy{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.team-name{
+    margin: 0 5px;
+    font-weight: 600;
+} */
